@@ -1,13 +1,14 @@
 .hero-banner {
   display: flex;
   flex-direction: column;
+  
   align-items: center;
 
   width: 100%;
 
-  background: var(--yellow-mandarine-gradient);
+  background: url(https://raw.githubusercontent.com/M3rzh1n/ISoft-Demo/main/Medical-Banner-Full-Res.jpg);
 
-  color: var(--black);
+  color: var(--white);
 
   /* responsive */
 
@@ -34,6 +35,12 @@
   background: var(--emerald-yellow-gradient);
 }
 
+.hero-banner--medical {
+  background: url(https://raw.githubusercontent.com/M3rzh1n/ISoft-Demo/main/Medical-Banner-Full-Res.jpg) no-repeat center;     
+  background-size:cover;
+}
+
+
 .hero-banner__logo {
   display: flex;
   justify-content: center;
@@ -42,7 +49,7 @@
   background-color: var(--white);
   border-radius: 50%;
 
-  box-shadow: 0 2px 4px rgb(0 0 0 / 12%);
+  box-shadow: 0px 0px 4px rgba(2, 2, 2, 0.44);
 
   /* responsive */
 

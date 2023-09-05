@@ -40,6 +40,7 @@
 .button--secondary {
   background-color: var(--white);
   color: var(--black);
+  box-shadow: 0px 0px 4px rgba(2, 2, 2, 0.44);
 }
 
 .button--secondary:hover {

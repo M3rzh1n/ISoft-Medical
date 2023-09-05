@@ -7,10 +7,10 @@ import { Component } from '@angular/core';
       <a routerLink="/">
         <img
           class="nav-bar__logo"
-          src="https://cdn.auth0.com/blog/hub/code-samples/hello-world/auth0-logo.svg"
-          alt="Auth0 shield logo"
-          width="122"
-          height="36"
+          src="https://raw.githubusercontent.com/M3rzh1n/ISoft-Demo/main/IsoftLogo.png"
+          alt="ISoft logo"
+          width="100%"
+          height="50"
         />
       </a>
     </div>

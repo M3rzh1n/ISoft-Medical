@@ -36,7 +36,8 @@
   color: var(--black);
 
   cursor: pointer;
-
+  box-shadow: 0 0 4px rgb(255, 255, 255),
+  0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
   transition: all 0.3s ease-in-out 0s;
 
   /* responsive */
